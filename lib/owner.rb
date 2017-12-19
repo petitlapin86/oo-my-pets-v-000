@@ -56,11 +56,12 @@ def sell_pets
     end
     animals.clear
   end
+end
 
   def say_species
     puts "I am a #{species}."
   end
-end 
+
 
 
 end #ends the class
