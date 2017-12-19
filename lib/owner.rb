@@ -5,6 +5,14 @@ class Owner
   attr_accessor :name, :pets
   attr_reader :species
 
+  def self.reset_all #class method can reset the owners that have been created 
+    OWNERS.clear
+  end
+
+  def self.all #keeps track of the owners that have been created 
+    OWNERS
+  end
+
   def self.count #can count owners that have been created
      OWNERS.size
    end
