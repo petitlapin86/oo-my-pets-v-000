@@ -4,12 +4,13 @@ class Owner
 
   attr_accessor :name, :pets
   attr_reader :species
-  
+
 ownercount = 0 #counter of owners starts at 0 
+
   def initialize
     @pets = {fishes: [], cats: [], dogs: []}
     @owner = owner
-    @species = species 
+    @species = species
 end
 
 def buy_fish(name)
@@ -18,6 +19,12 @@ end
 # Associate that new pet instance to the owner
 #by adding it to the appropriate array-value of
 #the @pets hash stored in the pets attr_accessor.
+ef buy_cat(name)
+  pets[:cats] << Cat.new(name)
+end
 
+ef buy_dog(name)
+  pets[:dogs] << Dog.new(name)
+end
 
 end #ends the class
