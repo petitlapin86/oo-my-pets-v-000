@@ -14,6 +14,6 @@ end
 # Associate that new pet instance to the owner
 #by adding it to the appropriate array-value of
 #the @pets hash stored in the pets attr_accessor.
-end
+
 
 end #ends the class
