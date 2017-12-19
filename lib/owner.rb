@@ -31,4 +31,18 @@ def buy_dog(name)
   pets[:dogs] << Dog.new(name)
 end
 
+def walk_dogs
+  pets[:dogs].each do |dog| #walk dogs
+    dog.mood = "happy" #this makes dog happy
+  end
+end
+
+def play_with_cat
+  pets[:cats].each do |cat| #play with cat 
+    cat.mood = "happy" #this makes cat happy
+  end
+end
+
+
+
 end #ends the class
