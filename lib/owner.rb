@@ -38,7 +38,7 @@ def walk_dogs
 end
 
 def play_with_cat
-  pets[:cats].each do |cat| #play with cat 
+  pets[:cats].each do |cat| #play with cat
     cat.mood = "happy" #this makes cat happy
   end
 end
@@ -49,6 +49,14 @@ def feed_fish
   end
 end
 
+def sell_pets
+  pets.each do |species, animals| #can sell all pets 
+    animals.each do |animal|
+      animal.mood = "nervous" #which makes pets nervous 
+    end
+    animals.clear
+  end
+end
 
 
 end #ends the class
