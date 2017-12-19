@@ -5,13 +5,13 @@ class Owner
   attr_accessor :name, :pets
   attr_reader :species
 
-  def self.count #can keep track of owners that have been created
+  def self.count #can count owners that have been created
      OWNERS.size
    end
 
   def initialize
     @pets = {fishes: [], cats: [], dogs: []}
-   OWNERS << self # can initialize an owner 
+   OWNERS << self # can initialize an owner
     @species = species
 end
 
