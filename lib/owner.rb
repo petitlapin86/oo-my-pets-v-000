@@ -7,11 +7,11 @@ class Owner
 end
 
 buy_(name)
-@name = name 
-@pets << name 
-# Associate that new pet instance to the owner 
-#by adding it to the appropriate array-value of 
+@name = name
+@pets << name
+# Associate that new pet instance to the owner
+#by adding it to the appropriate array-value of
 #the @pets hash stored in the pets attr_accessor.
-end 
+end
 
-end #ends the class 
+end #ends the class
