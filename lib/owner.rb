@@ -1,5 +1,7 @@
 class Owner
   # code goes here
+  OWNER = [] #create an empty array for owners
+  
   attr_accessor :name :pets
 
   def initialize
