@@ -52,14 +52,14 @@ end
 def sell_pets
   pets.each do |species, animals| #can sell all pets
     animals.each do |animal|
-      animal.mood = "nervous" #which makes pets nervous 
+      animal.mood = "nervous" #which makes pets nervous
     end
     animals.clear
   end
 
-  def say_species
+  def say_species(species)
     puts "I am a #{species}."
-  end 
+  end
 end
 
 
