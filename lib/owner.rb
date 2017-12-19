@@ -60,7 +60,7 @@ def sell_pets
   def say_species
     puts "I am a #{species}."
   end
-
+end 
 
 
 end #ends the class
