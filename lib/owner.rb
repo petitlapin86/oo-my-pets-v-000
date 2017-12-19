@@ -3,10 +3,13 @@ class Owner
   OWNERS = [] #create an empty array for owners
 
   attr_accessor :name, :pets
-
+  attr_reader :species
+  
+ownercount = 0 #counter of owners starts at 0 
   def initialize
     @pets = {fishes: [], cats: [], dogs: []}
     @owner = owner
+    @species = species 
 end
 
 def buy_fish(name)
