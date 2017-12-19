@@ -9,7 +9,7 @@ class Owner
      OWNERS.size
    end
 
-  def initialize
+  def initialize(species)
     @pets = {fishes: [], cats: [], dogs: []}
    OWNERS << self # can initialize an owner
     @species = species
