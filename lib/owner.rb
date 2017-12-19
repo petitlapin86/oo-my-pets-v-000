@@ -9,7 +9,7 @@ class Owner
     OWNERS.clear
   end
 
-  def self.all #keeps track of the owners that have been created 
+  def self.all #keeps track of the owners that have been created
     OWNERS
   end
 
