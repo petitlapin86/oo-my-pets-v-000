@@ -2,7 +2,7 @@ class Owner
   # code goes here
   OWNERS = [] #create an empty array for owners
 
-  attr_accessor :name :pets
+  attr_accessor :name, :pets
 
   def initialize
     @pets = {fishes: [], cats: [], dogs: []}
