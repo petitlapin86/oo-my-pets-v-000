@@ -43,6 +43,12 @@ def play_with_cat
   end
 end
 
+def feed_fish
+  pets[:fishes].each do |fish| #feed fish
+    fish.mood = "happy" #this makes fish happy
+  end
+end
+
 
 
 end #ends the class
