@@ -6,7 +6,7 @@ class Owner
     @pets = {fishes: [], cats: [], dogs: []}
 end
 
-buy_(name)
+def buy_(name)
 @name = name
 @pets << name
 # Associate that new pet instance to the owner
