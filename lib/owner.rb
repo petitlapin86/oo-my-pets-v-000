@@ -5,7 +5,7 @@ class Owner
   attr_accessor :name, :pets
   attr_reader :species
 
-ownercount = 0 #counter of owners starts at 0 
+ownercount = 0 #counter of owners starts at 0
 
   def initialize
     @pets = {fishes: [], cats: [], dogs: []}
